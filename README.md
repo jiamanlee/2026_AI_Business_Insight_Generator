@@ -152,3 +152,18 @@ This improves **AI explainability and trust**.
 ---
 
 ## Architecture
+User Input
+↓
+Clarification Question Generation (LLM)
+↓
+User Answers
+↓
+Evidence Data Parsing (Pandas)
+↓
+KPI Trend Visualization
+↓
+Business Insight Generation (LLM)
+↓
+Confidence Scoring
+↓
+Report Output
