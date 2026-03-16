@@ -1,10 +1,14 @@
 # AI Business Insight Generator
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red)
+![OpenAI](https://img.shields.io/badge/LLM-OpenAI-green)
+![Status](https://img.shields.io/badge/Status-Prototype-orange)
 
-![Business Input Panel (default)](./screenshots/Business%20Input%20Panel%20(default).png)
+Turn KPI signals and market context into structured strategic insights using AI.
 
-AI-powered business diagnostics tool that translates **KPI signals, market context, and evidence data** into structured strategic insights.
+AI-powered analytics tool combining **LLM reasoning + structured KPI signals + evidence data** to generate explainable business diagnostics.
 
-Designed for **product, strategy, and operations teams**, the system combines structured analytics with **LLM reasoning** to diagnose business performance faster and more consistently.
+![AI Insight Generator Demo](./screenshots/KPI%20Trends%20Visualization.png)
 
 ---
 
