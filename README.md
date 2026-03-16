@@ -179,7 +179,7 @@ The output is designed to resemble a **consulting-style strategy memo**.
 
 ---
 
-### 6. Explainable Confidence Score + Export/Download Options
+### 6. Explainable Confidence Score + Download Options
 
 ![Analysis Confidence & Export Report](./screenshots/Analysis%20Confidence%20&%20Export%20Report.png)
 
