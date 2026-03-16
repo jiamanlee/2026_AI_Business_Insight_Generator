@@ -1,10 +1,33 @@
 # AI Business Insight Generator
+![Business Input Panel (default)](./screenshots/Business%20Input%20Panel%20(default).png)
+AI-powered business diagnostics tool that translates KPI signals, market context, and evidence data into structured strategic insights.
 
-AI-powered business diagnostics tool that converts KPI signals and market context into structured strategic insights.
-
-This tool helps product, strategy, and operations teams quickly diagnose business performance using both **structured KPI data and LLM reasoning**.
-
+Designed for product, strategy, and operations teams, the system combines **structured analytics with LLM reasoning** to help diagnose business performance faster and more consistently.
 ---
+
+## Live Demo
+
+Run the application locally with Streamlit.
+
+### Step 1 – Clone the repository
+
+```bash
+git clone https://github.com/yourusername/2026_AI_Business_Insight_Generator.git
+cd 2026_AI_Business_Insight_Generator
+
+### Step 2 – Install required dependencies
+pip install -r requirements.txt
+
+
+### Step 3 – Set your OpenAI API key
+Before running the application, set your OpenAI API key:
+export OPENAI_API_KEY=your_openai_api_key_here
+(You can obtain an API key from https://platform.openai.com)
+
+### Step 4 – Run the Streamlit app
+streamlit run app.py
+The application will open automatically in your browser at:
+http://localhost:8501
 
 ## The Problem
 
@@ -61,7 +84,6 @@ Output:
 ## Demo Features
 
 ### 1. Business Context Input
-![Business Input Panel (default)](./screenshots/Business%20Input%20Panel%20(default).png)
 ![Business Input Panel (with input)](./screenshots/Business%20Input%20Panel%20(with%20input).png)
 
 Users provide:
