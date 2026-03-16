@@ -9,7 +9,7 @@ Turn KPI signals and market context into **structured strategic insights** using
 
 AI-powered analytics tool combining **LLM reasoning + structured KPI signals + evidence data** to generate explainable business diagnostics.
 
-![AI Insight Generator Demo](./screenshots/KPI%20Trends%20Visualization.png)
+![AI Insight Generator Demo](./screenshots/Business%20Input%20Panel%20(default).png)
 
 ---
 
@@ -20,7 +20,7 @@ AI-powered analytics tool combining **LLM reasoning + structured KPI signals + e
 - clarification question workflow to reduce ambiguity  
 - evidence-based reasoning using structured KPI signals  
 - explainable confidence scoring  
-- exportable consulting-style reports (Markdown / DOCX / PDF)
+- exportable consulting-style reports (Markdown / DOCX)
 
 ---
 
