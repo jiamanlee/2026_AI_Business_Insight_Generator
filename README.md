@@ -76,8 +76,7 @@ Users provide:
 ---
 
 ### 2. Clarification Questions
-![Clarification Questions](./Clarification%20Questions.png)
-
+![Clarification Questions](./screenshots/Clarification%20Questions.png)
 The system first generates **clarification questions** to reduce ambiguity before producing the final report.
 
 This improves reasoning quality.
