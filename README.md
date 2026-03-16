@@ -234,8 +234,8 @@ Structured Report Output
 
 This tool can be used for:
 
-• Product teams diagnosing KPI changes  
-• Growth teams analyzing conversion trends  
-• Strategy teams evaluating market shifts  
-• Startup founders understanding early product signals  
-• Operations teams summarizing business performance
+- Product teams diagnosing KPI changes  
+- Growth teams analyzing conversion trends  
+- Strategy teams evaluating market shifts  
+- Startup founders understanding early product signals  
+- Operations teams summarizing business performance
