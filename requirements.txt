@@ -1,4 +1,7 @@
 streamlit
-python-dotenv
-requests
-pydantic
+pandas
+openai
+markdown
+python-docx
+weasyprint
+matplotlib
