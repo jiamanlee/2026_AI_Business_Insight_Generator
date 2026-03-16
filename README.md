@@ -62,7 +62,7 @@ Output:
 
 ### 1. Business Context Input
 ![Business Input Panel (default)](./screenshots/Business%20Input%20Panel%20(default).png)
-![Business Input Panel (with input)](./screenshots/Business%20Input%20Panel%20(with input).png)
+![Business Input Panel (with input)](./screenshots/Business%20Input%20Panel%20(with%20input).png)
 
 Users provide:
 
@@ -85,7 +85,7 @@ This improves reasoning quality.
 ---
 
 ### 3. Evidence Data Upload
-![Evidence Data Upload](./screenshots/Evidence Data Upload.png)
+![Evidence Data Upload](./screenshots/Evidence%20Data%20Upload.png)
 
 Users can upload KPI datasets (CSV / Excel), such as:
 
@@ -104,7 +104,7 @@ The system automatically:
 ---
 
 ### 4. KPI Trend Visualization
-![KPI Trend Visualization](./screenshots/KPI Trends Visualization.png)
+![KPI Trend Visualization](./screenshots/KPI%20Trends%20Visualization.png)
 
 Uploaded KPI data is automatically visualized:
 
@@ -115,7 +115,7 @@ Uploaded KPI data is automatically visualized:
 ---
 
 ### 5. AI Insight Report
-![AI Insight Report](./screenshots/AI Insights Report.png)
+![AI Insight Report](./screenshots/AI%20Insights%20Report.png)
 The system generates a structured report including:
 
 - key problem diagnosis
@@ -126,7 +126,7 @@ The system generates a structured report including:
 ---
 
 ### 6. Explainable Confidence Score
-![Analysis Confidence & Export Report](./screenshots/Analysis Confidence & Export Report.png)
+![Analysis Confidence & Export Report](./screenshots/Analysis%20Confidence%20&%20Export%20Report.png)
 Each report includes a **confidence score (0–7)** based on:
 
 - business context completeness
