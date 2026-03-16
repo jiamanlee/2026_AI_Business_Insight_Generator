@@ -61,6 +61,8 @@ Output:
 ## Demo Features
 
 ### 1. Business Context Input
+![Business Input Panel (default)](./screenshots/Business%20Input%20Panel%20(default).png)
+![Business Input Panel (with input)](./screenshots/Business%20Input%20Panel%20(with input).png)
 
 Users provide:
 
@@ -74,6 +76,7 @@ Users provide:
 ---
 
 ### 2. Clarification Questions
+![Clarification Questions](./Clarification%20Questions.png)
 
 The system first generates **clarification questions** to reduce ambiguity before producing the final report.
 
@@ -82,6 +85,7 @@ This improves reasoning quality.
 ---
 
 ### 3. Evidence Data Upload
+![Evidence Data Upload](./screenshots/Evidence Data Upload.png)
 
 Users can upload KPI datasets (CSV / Excel), such as:
 
@@ -100,6 +104,7 @@ The system automatically:
 ---
 
 ### 4. KPI Trend Visualization
+![KPI Trend Visualization](./screenshots/KPI Trends Visualization.png)
 
 Uploaded KPI data is automatically visualized:
 
@@ -110,7 +115,7 @@ Uploaded KPI data is automatically visualized:
 ---
 
 ### 5. AI Insight Report
-
+![AI Insight Report](./screenshots/AI Insights Report.png)
 The system generates a structured report including:
 
 - key problem diagnosis
@@ -121,7 +126,7 @@ The system generates a structured report including:
 ---
 
 ### 6. Explainable Confidence Score
-
+![Analysis Confidence & Export Report](./screenshots/Analysis Confidence & Export Report.png)
 Each report includes a **confidence score (0–7)** based on:
 
 - business context completeness
@@ -133,21 +138,6 @@ Each report includes a **confidence score (0–7)** based on:
 
 This improves **AI explainability and trust**.
 
----
-
-## Screenshots
-
-Example interface:
-
-Business input panel  
-KPI trend visualization  
-AI insight report  
-analysis confidence score
-
-![Business Input Panel](./screenshots/Screenshot_Executive_Summary.png)
-![KPI Trend Visualization](./screenshots/Screenshot_Deep_Dive_Analysis.png) 
-![AI Insight Report](./screenshots/Screenshot_Deep_Dive_Analysis.png) 
-![Analysis Confidence Score](./screenshots/Screenshot_Deep_Dive_Analysis.png) 
 ---
 
 ## Tech Stack
