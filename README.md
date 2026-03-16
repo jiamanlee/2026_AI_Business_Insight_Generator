@@ -144,8 +144,10 @@ KPI trend visualization
 AI insight report  
 analysis confidence score
 
-*(Add screenshots here)*
-
+![Business Input Panel](./screenshots/Screenshot_Executive_Summary.png)
+![KPI Trend Visualization](./screenshots/Screenshot_Deep_Dive_Analysis.png) 
+![AI Insight Report](./screenshots/Screenshot_Deep_Dive_Analysis.png) 
+![Analysis Confidence Score](./screenshots/Screenshot_Deep_Dive_Analysis.png) 
 ---
 
 ## Tech Stack
