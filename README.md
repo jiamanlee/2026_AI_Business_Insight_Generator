@@ -227,7 +227,7 @@ Business Insight Generation (LLM)
       ↓
 Confidence Scoring
       ↓
-Structured Report Output
+Report Rendering & Export
 ```
 
 ## Example Use Cases
