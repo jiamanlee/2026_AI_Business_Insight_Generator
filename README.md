@@ -1,25 +1,37 @@
 # AI Business Insight Generator
+
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 ![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red)
 ![OpenAI](https://img.shields.io/badge/LLM-OpenAI-green)
 ![Status](https://img.shields.io/badge/Status-Prototype-orange)
 
-Turn KPI signals and market context into structured strategic insights using AI.
+Turn KPI signals and market context into **structured strategic insights** using AI.
 
 AI-powered analytics tool combining **LLM reasoning + structured KPI signals + evidence data** to generate explainable business diagnostics.
 
-![AI Insight Generator Demo](./screenshots/Business%20Input%20Panel%20(default).png)
+![AI Insight Generator Demo](./screenshots/KPI%20Trends%20Visualization.png)
 
 ---
 
-## Live Demo
+## Key Features
 
-Run the application locally with Streamlit.
+- AI-powered business diagnostics  
+- KPI trend visualization from uploaded datasets  
+- clarification question workflow to reduce ambiguity  
+- evidence-based reasoning using structured KPI signals  
+- explainable confidence scoring  
+- exportable consulting-style reports (Markdown / DOCX / PDF)
+
+---
+
+# Quick Start
+
+Run the application locally using Streamlit.
 
 ### Step 1 - Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/2026_AI_Business_Insight_Generator.git
+git clone https://github.com/jiamanlee/2026_AI_Business_Insight_Generator.git
 cd 2026_AI_Business_Insight_Generator
 ```
 
@@ -37,7 +49,8 @@ Before running the application, set your OpenAI API key:
 export OPENAI_API_KEY=your_openai_api_key_here
 ```
 
-You can obtain an API key from:  
+You can obtain an API key from:
+
 https://platform.openai.com
 
 ### Step 4 - Run the Streamlit app
@@ -48,13 +61,13 @@ streamlit run app.py
 
 The application will open automatically in your browser:
 
-```text
+```
 http://localhost:8501
 ```
 
 ---
 
-## The Problem
+# The Problem
 
 Many teams monitor KPIs but struggle to translate signals into **clear strategic insights**.
 
@@ -69,7 +82,7 @@ This process is **slow, inconsistent, and difficult to scale**.
 
 ---
 
-## The Solution
+# The Solution
 
 AI Business Insight Generator combines:
 
@@ -88,16 +101,20 @@ The system also provides:
 
 ---
 
-## How It Works
+# How It Works
 
 ### Input
+
+Users provide:
 
 - KPI signals
 - industry environment change
 - market context
-- uploaded KPI data
+- uploaded KPI datasets
 
 ### Output
+
+The system generates:
 
 - structured business insight report
 - KPI trend charts
@@ -106,24 +123,24 @@ The system also provides:
 
 ---
 
-## Product Features
+# Product Walkthrough
 
-### 1. Business Context Input
+## 1. Business Context Input
 
-![Business Input Panel (with input)](./screenshots/Business%20Input%20Panel%20(with%20input).png)
+![Business Input Panel](./screenshots/Business%20Input%20Panel%20(with%20input).png)
 
-Users provide key business signals:
+Users provide key business signals including:
 
-- Business type
-- Target market
-- Core business problem
-- Industry environment change
+- business type
+- target market
+- core business problem
+- industry environment change
 - KPI changes
-- Additional context
+- additional context
 
 ---
 
-### 2. Clarification Questions
+## 2. Clarification Questions
 
 ![Clarification Questions](./screenshots/Clarification%20Questions.png)
 
@@ -133,7 +150,7 @@ This improves reasoning quality and helps the AI produce more accurate insights.
 
 ---
 
-### 3. Evidence Data Upload
+## 3. Evidence Data Upload
 
 ![Evidence Data Upload](./screenshots/Evidence%20Data%20Upload.png)
 
@@ -153,7 +170,7 @@ The system automatically:
 
 ---
 
-### 4. KPI Trend Visualization
+## 4. KPI Trend Visualization
 
 ![KPI Trend Visualization](./screenshots/KPI%20Trends%20Visualization.png)
 
@@ -163,14 +180,14 @@ Uploaded KPI data is automatically visualized through:
 - trend summary tables
 - KPI change metrics
 
-This helps validate insights with **actual performance signals**.
+This helps validate insights using **actual performance signals**.
 
 ---
 
-### 5. AI Insight Report
+## 5. AI Insight Report
 
-![AI Insight Report 1](./screenshots/AI%20Insights%20Report%20-%201.png)
-![AI Insight Report 2](./screenshots/AI%20Insights%20Report%20-%202.png)
+![AI Insight Report](./screenshots/AI%20Insights%20Report%20-%201.png)
+![AI Insight Report](./screenshots/AI%20Insights%20Report%20-%202.png)
 
 The system generates a structured report including:
 
@@ -183,9 +200,9 @@ The output is designed to resemble a **consulting-style strategy memo**.
 
 ---
 
-### 6. Explainable Confidence Score + Download Options
+## 6. Explainable Confidence Score + Export
 
-![Analysis Confidence & Export Report](./screenshots/Analysis%20Confidence%20&%20Export%20Report.png)
+![Analysis Confidence](./screenshots/Analysis%20Confidence%20&%20Export%20Report.png)
 
 Each report includes a **confidence score (0–7)** based on:
 
@@ -196,27 +213,28 @@ Each report includes a **confidence score (0–7)** based on:
 - evidence data
 - data usability
 
-This improves **AI explainability and trust** by showing how reliable the analysis is.
+Reports can be exported as:
+
+- Markdown  
+- DOCX  
 
 ---
 
-## Tech Stack
+# Tech Stack
 
 - **Python**
-- **Streamlit** - interactive analytics interface
-- **OpenAI API** - LLM reasoning engine
-- **Pandas** - evidence data parsing and KPI analysis
-- **Markdown / python-docx** - report generation and export
+- **Streamlit** – interactive analytics interface
+- **OpenAI API** – LLM reasoning engine
+- **Pandas** – evidence data parsing and KPI analysis
+- **Markdown / python-docx** – report generation and export
 
 ---
 
-## Architecture
+# Architecture
 
 The system follows a structured reasoning pipeline combining **user input, evidence data, and LLM-based analysis**.
 
-Workflow:
-
-```text
+```
 User Input
       ↓
 Clarification Question Generation (LLM)
@@ -234,7 +252,9 @@ Confidence Scoring
 Report Rendering & Export
 ```
 
-## Example Use Cases
+---
+
+# Example Use Cases
 
 This tool can be used for:
 
@@ -242,4 +262,18 @@ This tool can be used for:
 - Growth teams analyzing conversion trends  
 - Strategy teams evaluating market shifts  
 - Startup founders understanding early product signals  
-- Operations teams summarizing business performance
+- Operations teams summarizing business performance  
+
+---
+
+# Related Projects
+
+More analytics projects:
+
+- Hotel Revenue Intelligence Dashboard  
+- WTD Analytics & Trend Tracker  
+- Top-of-Funnel Spend Optimization (MMM)
+
+GitHub Portfolio:
+
+https://github.com/jiamanlee
