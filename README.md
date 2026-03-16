@@ -114,7 +114,8 @@ Uploaded KPI data is automatically visualized:
 ---
 
 ### 5. AI Insight Report
-![AI Insight Report](./screenshots/AI%20Insights%20Report.png)
+![AI Insight Report_1](./screenshots/AIs%20Insightss%20Reports%20-s%201.png)
+![AI Insight Report_2](./screenshots/AIs%20Insightss%20Reports%20-s%202.png)
 The system generates a structured report including:
 
 - key problem diagnosis
